@@ -4,7 +4,7 @@ const productsData = [
         name:"Electric Kettle",
         price:2000,
         img:"/kettle/kettle.png",
-        model:"",
+        model:"/kettle/kettle.glb",
     }
 ]
 
