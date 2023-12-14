@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    width: 250px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer1;
+}
+
+.img-div{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.img-div img{
+    width: 100%;
+    height: auto;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.title{
+    font-weight: 600;
+}
+.price{
+    color: rgb(99, 99, 99);
+    font-weight: 300;
+}
