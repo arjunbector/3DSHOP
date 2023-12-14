@@ -1,0 +1,19 @@
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    font-weight: 500;
+}
+
+.right ul {
+    display: flex;
+    gap: 20px;
+}
+
+.right li {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
