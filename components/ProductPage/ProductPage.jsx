@@ -15,7 +15,7 @@ const ProductPage = (props) => {
       <Canvas
         dpr={[1, 2]}
         shadows
-        camera={{ fov: 30 }}
+        camera={{ fov: 45 }}
         className={styles.canvas}
       >
         <color attach="background" args={["#737373"]} />
