@@ -20,6 +20,7 @@ const Home = () => {
   return (
     <>
       <Categories />
+      <h1 className={styles.heading}>Recommended Products</h1>
       <div className={styles.home}>{cards}</div>
     </>
   );
