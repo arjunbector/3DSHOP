@@ -10,13 +10,13 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <div className={styles.left}>
         <div className={styles.logo}>
-          3<span>D</span>SHOP
+          <span>AR</span>cade
         </div>
         <div className={`${styles["input-div"]}`}>
           <input
             className={styles.input}
             type="text"
-            placeholder="Search 3DSHOP"
+            placeholder="Search ARcade"
             value={input}
             onChange={(event) => {
               setInput(event.target.value);
