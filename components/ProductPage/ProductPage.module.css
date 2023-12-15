@@ -2,6 +2,9 @@
     display: flex;
     margin: 10px 50px;
     gap: 50px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px 30px;
 }
 
 .canvas{

@@ -23,13 +23,6 @@ const Home = () => {
   return (
     <div className={styles.home}>
       {cards}
-      <button
-      onClick={()=>{
-        navigate('/product', {state:{
-            name: name
-        }})
-      }}
-      >click me</button>
     </div>
   )
 }

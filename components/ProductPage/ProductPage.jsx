@@ -15,7 +15,7 @@ const ProductPage = (props) => {
       <Canvas
         dpr={[1, 2]}
         shadows
-        camera={{ fov: 45 }}
+        camera={{ fov: 30 }}
         className={styles.canvas}
       >
         <color attach="background" args={["#737373"]} />
@@ -23,10 +23,11 @@ const ProductPage = (props) => {
           speed={1.5}
           global
           zoom={10}
+          
           //   polar={[-0.1, Math.PI / 4]}
         >
           <Stage environment={"studio"} />
-          <Model scale={10} />
+          <Model scale={0.8} />
         </PresentationControls>
       </Canvas>
       <div className={styles.description}>
