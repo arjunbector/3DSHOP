@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar/Navbar"
 import ProductPage from "../components/ProductPage/ProductPage"
 
 const App = () => {
-  // const navigate = useNavigate();
   return (
     <div>
       <Navbar/>

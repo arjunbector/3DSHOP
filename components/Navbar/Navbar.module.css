@@ -6,14 +6,85 @@
     padding: 10px 40px;
     font-weight: 500;
 }
-
-.right ul {
+.left{
     display: flex;
-    gap: 20px;
+    width: 50%;
+    align-items: center;
 }
 
-.right li {
-    text-decoration: none;
-    list-style: none;
+.logo{
     cursor: pointer;
+}
+
+.input-div{
+    width: 70%;
+    position: relative;
+    margin: 0px 50px;
+}
+
+.input{
+    padding: 1px 5px;
+    font-size: 10px;
+    height: 30px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.searchIcon{
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.voice-assistant-wrapper{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    text-wrap: nowrap;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    border: 1px solid black;
+}
+
+.voice-assistant-wrapper:hover{
+    animation: zoom 250ms forwards;
+}
+
+@keyframes zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+.voiceIcon{
+    font-size: 20px;
+}
+
+.right{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cartDiv{
+    position: relative;
+}
+
+.cart{
+    font-size: 30px;
+    font-weight: 500;
+}
+.cartItems{
+    position: absolute;
+    left: 12px;
+    top: 6px;
+    font-size: 12px;
 }

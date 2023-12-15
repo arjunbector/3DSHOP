@@ -1,30 +1,28 @@
 import styles from "./Home.module.css";
-import Card from '../Card/Card'
-import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+import Card from "../Card/Card";
 import productsData from "../../data/data";
+import Categories from "../Categories/Categories";
 
 const Home = () => {
-    const navigate = useNavigate();
-    const[name, setName] = useState("arjun") 
 
-    const cards = productsData.map((product)=>{
-        return(
-            <Card
-            img = {product.img}
-            key={product.id}
-            title={product.name}
-            price={product.price}
-            model={product.model}
-            />
-        )
-    })
+  const cards = productsData.map((product) => {
+    return (
+      <Card
+        img={product.img}
+        key={product.id}
+        title={product.name}
+        price={product.price}
+        model={product.model}
+      />
+    );
+  });
 
   return (
-    <div className={styles.home}>
-      {cards}
-    </div>
-  )
-}
+    <>
+      <Categories />
+      <div className={styles.home}>{cards}</div>
+    </>
+  );
+};
 
-export default Home
+export default Home;
